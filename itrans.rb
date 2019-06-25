@@ -27,7 +27,7 @@ class Image
     @arr.each_index do |i|
       sarr = @arr[i]
       sarr.each_index do |x|
-        print sarr[x]
+        print sarr[x], ' '
       end
       print "\n"
     end
